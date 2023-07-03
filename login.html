@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <style>
+        #logo {
+            width: 40%; /* Reduce the size of the image */
+            display: block; /* Allow the use of margin auto for centering */
+            margin: auto; /* Center the image */
+        }
+        #login-container {
+            text-align: center; /* Center the text */
+        }
+    </style>
+</head>
+<body>
+    <div id="login-container">
+        <img src="https://media.istockphoto.com/id/1244931280/vector/camera-and-heart-sign-flat-style-isolated.jpg?s=170667a&w=0&k=20&c=003dQiJxeKwi0tvBN33WwofKeJzp3g8fsYP9CwDYY6o=" alt="Logo de Match&Meet" id="logo"><br>
+        <h2>Bienvenido a Match&Meet</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Nombre de usuario" required><br>
+            <input type="password" id="password" placeholder="Contraseña" required><br>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
